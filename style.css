@@ -1,0 +1,106 @@
+/* Answer-1 */
+@media  screen and (min-width : 768px) and (max-width : 1024px) {
+    body {
+        background-color: lightblue;
+    }
+}
+/* Answer-2 */
+@media  screen and (min-width : 600px) and (max-width : 1200px) {
+    p {
+        font-size: 18px;
+    }
+}
+/* Answer-3 */
+@media  screen and (min-width : 480px) {
+    .main {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+/* Answer-4 */
+@media  screen and (min-width : 500px) and (max-width : 800px) {
+    h1 {
+        color: green;
+    }
+}
+/* Answer-5 */
+@media  screen and (min-width : 400px) {
+    .img1 {
+        display: none;
+    }
+}
+/* Answer-6 */
+@media  screen and (min-width : 1024px) {
+    .main {
+        border: 2px solid;
+        padding: 20px;
+    }
+}
+/* Answer-7 */
+@media  screen and (min-width : 600px) and (max-width : 1200px) {
+    .main {
+        background-color: lightgray;
+    }
+}
+/* Answer-8 */
+@media  screen and (max-width : 480px) {
+    p {
+        font-size: 16px;
+    }
+}
+/* Answer-10 */
+@media  screen and (max-width : 600px) {
+    .img2 {
+        width: 100%;
+    
+    }
+}
+/* Answer-11 */
+@media  screen and (min-width : 700px) and (max-width : 1200px) {
+    a {
+        color: blue;
+        text-decoration: none;
+    }
+}
+/* Answer-12 */
+@media  screen and (min-width : 500px) and (max-width : 800px) {
+    h2 {
+        font-size: 24px;
+    }
+}
+/* Answer-13 */
+.border {
+    height: 100px;
+    width: 100px;
+}
+@media screen and (min-width : 1024px) {
+    .border {
+        border: 2px solid black;
+    }
+}
+/* Answer-14 */
+@media  screen and (min-width : 800px) and (max-width : 1200px) {
+    .sidebar {
+        background-color: lightcoral;
+        width: 250px;
+    }
+}
+/* Answer-15 */
+.column {
+    display: flex;
+    gap: 5px;
+
+}
+.x {
+    background-color: lightpink;
+    color: white;
+    width: fit-content;
+    padding: 10px;
+}
+
+@media screen and (min-width : 600px) {
+    .column {
+        flex-direction: column;
+    }
+
+}
